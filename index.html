@@ -1,29 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Savitribai Phule Pune University Results</title>
+  <title>Savitribai Phule Pune University Result</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Savitribai Phule Pune University</h1>
-    <form id="resultForm">
-      <label for="seatNo">Enter Seat No.:</label>
-      <input type="text" id="seatNo" required>
+  <h1>Savitribai Phule Pune University</h1>
+  <form id="resultForm">
+    <label for="seatNo">Enter Seat No:</label>
+    <input type="text" id="seatNo" required><br>
 
-      <label for="motherName">Mother's Name:</label>
-      <input type="text" id="motherName" required>
+    <label for="motherName">Enter Mother's Name:</label>
+    <input type="text" id="motherName" required><br>
 
-      <label for="captcha">Enter Captcha:</label>
-      <input type="text" id="captcha" required>
-      <p class="captcha-text">Captcha: <strong>12345</strong></p>
+    <label for="captcha">Enter the CAPTCHA:</label>
+    <input type="text" id="captcha" required>
+    <span id="captchaDisplay"></span><br>
 
-      <button type="submit">View Result</button>
-    </form>
-  </div>
+    <button type="submit">Submit</button>
+  </form>
 
   <script src="script.js"></script>
 </body>
